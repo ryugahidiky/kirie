@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@800&display=swap');
+
+
+body { 
+    background-image: url('imai.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.overlay{
+    background: #3335;
+    width: 100%;
+    height: 100%;
+    /*position: fixed;*/
+    top: 0px;
+    left: 0px;
+}
+.whiteect{
+    width: 80%;
+    height: 400px;
+    background-color: #fffd;
+    margin: 0 auto;
+    border-radius: 20px ;
+   margin-top: 100px;
+   float: center;
+    text-align: center;
+    max-width: 300px;
+}
+.title{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 800;
+}
+.pass{
+
+    margin-top: 40px;
+}
+#password{
+    border: none;
+    background: #d3d4e6;
+    font-size: 30px;
+    text-align: center;
+    color: #4a4d5b;
+    border-radius: 10px;
+    width:200px;
+    height: 40px;
+    transition: background-color .3s ease-in;
+}
+#password:focus{
+    border-bottom: 3px #333 solid;
+     background-color: #d3d4e6;
+}
+
+.login{
+    width:200px;
+    height: 40px;
+  border-radius: 10px;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    background-color: #453368;
+    color: white;
+
+}
+.login:active {
+    background-color: #705a9d;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.main{
+    display: none;
+    position: absolute;
+    top: 0px;left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #f4922f;
+    margin: 0px 0px;
+ 
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+
+}
+#login{
+    display: none;
+}
+.logo{
+    text-align: center;
+}
+.logo>img{
+    /*max-width: 400px;*/
+}
+.me>img{
+    max-height:300px;
+    position: absolute;
+    bottom: 0px;
+}
+.chapters{
+    position: relative;
+    top: 5px;
+    height: 60%;
+    width: 85%;
+    max-width: 500px;
+    max-height: 900px;
+    background-color: white;
+    margin: 0 auto;
+    bottom: 50px;
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.835171568627451) 0%, rgba(255,232,207,0.87718837535014) 35%, rgba(255,255,255,0.8631827731092436) 92%);
+}
+.chapterstitle{
+  font-size: 24px;
+    line-height: 30px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 800;
+    color: #ff6a00;
+    padding: 10px;
+}
+
+.links{
+    direction: rtl;
+    text-align: right;
+    padding: 40px 40px;
+}
+.ch{
+      font-size: 16px;
+    line-height: 30px;
+   font-family: 'Tajawal', sans-serif;
+   font-weight: 600;
+}
+
+a{
+    color: hotpink;
+}
+a:visited{
+    color: black;
+}
+
+.chaptercontainer{
+    text-align: center;
+}
+
+.images{
+    /*padding: 40px;*/
+}
